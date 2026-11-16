@@ -28,14 +28,14 @@
                  apply some type of styling using the filter( ) effect
 */
 #firstGallery:hover{
-   filter:drop-shadow(); 
+   filter:sepia(90%) 
 }
 
 /* Challenge 13: When the visitor moves their mouse over images inside of the element with an id of secondGallery,
                  apply some other type of styling.
 */
 #secondGallery:hover{
-   filter:contrast()
+   filter:grayscale(90%)
 }
 /* Challenge 14: Change the transition for all elements to 1 second */
 *{
